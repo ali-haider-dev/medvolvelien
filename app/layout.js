@@ -13,19 +13,17 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "MedvolveLiens",
-  description: "We connect you directly with attorneys, manage referrals, and keep your personal injury pipeline full",
+  description:
+    "We connect you directly with attorneys, manage referrals, and keep your personal injury pipeline full",
   icons: {
-    icon: '/favicon.ico',
+    icon: "/favicon.ico",
   },
-  
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={``}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
     </html>
