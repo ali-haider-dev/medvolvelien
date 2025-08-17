@@ -31,7 +31,7 @@ export default function Page() {
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/50" />
-          <div className="container relative z-10 mx-auto px-4 py-24 sm:py-32">
+          <div className="container relative z-10 mx-auto px-4 py-24 sm:py-32 ml-6">
             <div className="max-w-3xl text-white">
               <motion.span
                 className="inline-flex items-center rounded-full bg-emerald-500/20 px-3 py-1 text-xs font-medium text-emerald-100 ring-1 ring-inset ring-emerald-300/30"
@@ -56,15 +56,14 @@ export default function Page() {
                 animate="visible"
                 transition={{ delay: 0.5 }}
               >
-                We connect you directly with attorneys, manage referrals, and keep your personal injury pipeline full —
-                so you can focus on patient care while we grow your practice.
+                We connect you directly with attorneys, manage referrals, and keep your personal injury pipeline full so you can focus on patient care while we grow your practice.
               </motion.p>
             </div>
           </div>
         </section>
 
         {/* About */}
-        <section id="about" className="scroll-mt-20 border-b bg-white" aria-label="About us">
+        <section id="about" className="scroll-mt-20 border-b bg-white mx-8" aria-label="About us">
           <div className="container mx-auto grid gap-10 px-4 py-16 lg:grid-cols-2 lg:items-center">
             <motion.div
               className="space-y-5"
@@ -127,7 +126,7 @@ export default function Page() {
 
             <div className="mx-auto mt-10 grid max-w-6xl gap-6 md:grid-cols-2 lg:grid-cols-4">
               <AnimatedCard delay={0.05}>
-                <Card className="border-blue-100">
+                <Card className="border-blue-100 w-[280px] h-[290px]">
                   <CardHeader className="space-y-3">
                     <div className="inline-flex size-10 items-center justify-center rounded-lg bg-blue-600/10 text-blue-700">
                       <Users className="size-5" aria-hidden="true" />
@@ -142,7 +141,7 @@ export default function Page() {
               </AnimatedCard>
 
               <AnimatedCard delay={0.1}>
-                <Card className="border-emerald-100">
+                <Card className="border-emerald-100 w-[280px] h-[290px]">
                   <CardHeader className="space-y-3">
                     <div className="inline-flex size-10 items-center justify-center rounded-lg bg-emerald-600/10 text-emerald-700">
                       <Video className="size-5" aria-hidden="true" />
@@ -157,7 +156,7 @@ export default function Page() {
               </AnimatedCard>
 
               <AnimatedCard delay={0.15}>
-                <Card className="border-blue-100">
+                <Card className="border-blue-100 w-[280px] h-[290px]">
                   <CardHeader className="space-y-3">
                     <div className="inline-flex size-10 items-center justify-center rounded-lg bg-blue-600/10 text-blue-700">
                       <Briefcase className="size-5" aria-hidden="true" />
@@ -165,13 +164,13 @@ export default function Page() {
                     <CardTitle className="text-gray-900">Marketing & Referral Management</CardTitle>
                   </CardHeader>
                   <CardContent className="text-muted-foreground">
-                    We handle outreach, positioning, and referral workflows — transparent reporting keeps you informed.
+                    We handle outreach, positioning, and referral workflows so transparent reporting keeps you informed.
                   </CardContent>
                 </Card>
               </AnimatedCard>
 
               <AnimatedCard delay={0.2}>
-                <Card className="border-emerald-100">
+                <Card className="border-emerald-100 w-[280px] h-[290px]">
                   <CardHeader className="space-y-3">
                     <div className="inline-flex size-10 items-center justify-center rounded-lg bg-emerald-600/10 text-emerald-700">
                       <RefreshCcw className="size-5" aria-hidden="true" />
@@ -207,7 +206,7 @@ export default function Page() {
               <TestimonialCard
                 delay={0.1}
                 quote={
-                  "The process is transparent and professional. They even followed up with firms when referrals slowed — and it worked."
+                  "The process is transparent and professional. They even followed up with firms when referrals slowed and it worked."
                 }
                 name="Dr. Marcus Lee"
                 role="Owner, AlignCare"
