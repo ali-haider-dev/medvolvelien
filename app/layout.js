@@ -15,9 +15,7 @@ export const metadata = {
   title: "MedvolveLiens",
   description:
     "We connect you directly with attorneys, manage referrals, and keep your personal injury pipeline full",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  icons: "/Logo.png"
 };
 
 export default function RootLayout({ children }) {

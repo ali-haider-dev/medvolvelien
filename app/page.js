@@ -73,19 +73,19 @@ export default function Page() {
               viewport={{ once: true, amount: 0.2 }}
             >
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Who we are</h2>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground text-black">
                 We are a marketing agency dedicated to helping chiropractors grow their personal injury caseload. Our
                 mission is simple: put doctors first by building direct relationships with personal injury attorneys and
                 managing a reliable referral pipeline.
               </p>
               <div className="space-y-3">
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground text-black">
                   Doctors pay a transparent upfront fee for us to start marketing on their behalf. We add your practice
                   to our Provider Relations Network, which averages 2–3 qualified referrals per month. From there, we
                   facilitate Zoom intros with attorneys so you can discuss cases directly and build lasting
                   partnerships.
                 </p>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground text-black">
                   You stay in the loop at every step. If referrals slow down, we proactively follow up with law firms on
                   your behalf to get your numbers back on track.
                 </p>
