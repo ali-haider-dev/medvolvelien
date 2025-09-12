@@ -20,24 +20,24 @@ export default function ContactForm() {
 
   return (
     <form ref={formRef} action={formAction} className="grid gap-4" aria-describedby="form-status">
-      <div className="grid gap-2">
+      <div className="grid gap-2 text-black">
         <Label htmlFor="name">Name</Label>
         <Input id="name" name="name" placeholder="Dr. Jane Doe" required />
         {state?.errors?.name && <p className="text-sm text-red-600">{state.errors.name.join(", ")}</p>}
       </div>
-      <div className="grid gap-2 sm:grid-cols-2">
+      <div className="grid gap-2 sm:grid-cols-2 text-black">
         <div className="grid gap-2">
           <Label htmlFor="email">Email</Label>
           <Input id="email" name="email" type="email" placeholder="dr.jane@example.com" required />
           {state?.errors?.email && <p className="text-sm text-red-600">{state.errors.email.join(", ")}</p>}
         </div>
-        <div className="grid gap-2">
+        <div className="grid gap-2 text-black">
           <Label htmlFor="phone">Phone</Label>
           <Input id="phone" name="phone" type="tel" placeholder="(555) 123-4567" required />
           {state?.errors?.phone && <p className="text-sm text-red-600">{state.errors.phone.join(", ")}</p>}
         </div>
       </div>
-      <div className="grid gap-2">
+      <div className="grid gap-2 text-black">
         <Label htmlFor="message">Message</Label>
         <Textarea
           id="message"

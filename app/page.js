@@ -113,13 +113,13 @@ export default function Page() {
         {/* Services */}
         <section
           id="services"
-          className="scroll-mt-20 bg-gradient-to-b from-sky-50 to-emerald-50"
+          className="scroll-mt-20  from-sky-50 to-emerald-50 bg-[url('/whatwedo.jpeg')]"
           aria-label="Services"
         >
           <div className="container mx-auto px-4 py-16">
             <div className="mx-auto max-w-3xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">What we do</h2>
-              <p className="mt-3 text-muted-foreground">
+              <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">What we do</h2>
+              <p className="mt-3 text-white ">
                 Proven, transparent growth systems designed for chiropractors who treat personal injury patients.
               </p>
             </div>
@@ -230,7 +230,7 @@ export default function Page() {
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Start Getting More Referrals Today
               </h2>
-              <p className="mt-3 text-muted-foreground">
+              <p className="mt-3 text-muted-foreground text-gray-900">
                 Tell us about your practice and PI goals. We’ll reach out to schedule your first attorney introductions.
               </p>
             </div>
